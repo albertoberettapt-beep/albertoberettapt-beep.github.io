@@ -119,3 +119,4 @@ footer li{margin-bottom:.35em}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .gmap{margin-top:30px}.gmap iframe{display:block}
+.reviews{columns:3 300px;column-gap:20px;margin-top:26px}.reviews figure{margin:0 0 20px;break-inside:avoid}.reviews img{width:100%;height:auto;background:#fff;border:3px solid var(--blu);border-radius:20px}
