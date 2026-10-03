@@ -118,3 +118,4 @@ footer li{margin-bottom:.35em}
  .card{min-height:260px}
 }
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.gmap{margin-top:30px}.gmap iframe{display:block}
