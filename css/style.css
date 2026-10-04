@@ -130,3 +130,23 @@ footer li{margin-bottom:.35em}
 .hero-short .note{font-size:.88rem;margin-top:10px;opacity:.9}.hero-short .cta-row{margin-top:2px}.hero-short .hero-in{padding-top:28px;padding-bottom:22px}
 
 .ghost-wrap>.lead{max-width:62ch;position:relative;z-index:1}
+.card{min-height:520px}
+.c1::before{background:linear-gradient(180deg,rgba(27,35,64,0) 0%,rgba(27,35,64,0) 36%,rgba(27,35,64,.93) 70%)}
+.c2::before{background:linear-gradient(180deg,rgba(196,39,31,0) 0%,rgba(196,39,31,0) 36%,rgba(150,25,20,.94) 70%)}
+.c3::before{background:linear-gradient(180deg,rgba(27,35,64,0) 0%,rgba(27,35,64,0) 36%,rgba(27,35,64,.93) 70%)}
+.card .n{position:absolute;top:14px;left:20px;font-size:3rem;text-shadow:0 2px 8px rgba(0,0,0,.5)}
+.step{min-height:390px}
+.step::before{background:linear-gradient(180deg,rgba(27,35,64,0) 0%,rgba(27,35,64,0) 34%,rgba(27,35,64,.94) 68%)}
+img.bg[src*="valutazione-posturale"]{object-position:22% 20%!important}
+img.bg[src*="programma-su-misura"]{object-position:90% 0!important}
+img.bg[src*="personal-trainer-zibido-san-giacomo-allenamento"]{object-position:40% 0!important}
+.step img.bg[src*="leg-press"]{object-position:50% 0!important}
+.card img.bg[src*="leg-press"]{object-position:50% 20%!important}
+.card img.bg[src*="app-allenamento"]{object-position:100% 50%!important}
+.card img.bg[src*="follow-up"]{object-position:62% 0!important}
+.card img.bg[src*="personal-training-1to1"]{object-position:28% 0!important}
+.card img.bg[src*="corsi-di-gruppo"]{object-position:50% 100%!important}
+.hero-short{min-height:520px;align-items:flex-end}.hero-short h1{font-size:clamp(2rem,5vw,3.6rem)}
+.hero-short::after{background:linear-gradient(180deg,rgba(27,35,64,0) 0%,rgba(27,35,64,.05) 40%,rgba(27,35,64,.9) 72%)}
+.hero-short .hero-bg{object-position:50% 0!important}
+@media(max-width:820px){.card{min-height:470px}.step{min-height:360px}.hero-short{min-height:560px}}
