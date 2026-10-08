@@ -250,11 +250,11 @@ details{margin-left:auto;margin-right:auto}
 @media(max-width:820px){.eb-d{display:none}}
 
 /* steps con foto in alto, ben visibile */
-.steps.top .step{min-height:0;justify-content:flex-start;padding:244px 22px 22px}
-.steps.top .step::before{display:none}
-.steps.top .step img.bg{position:absolute;top:0;left:0;width:100%;height:220px;object-fit:cover;z-index:0}
-.steps.top .step img.bg[src*="ingresso"]{object-position:50% 12%!important}
-.steps.top .step img.bg[src*="valutazione-posturale"]{object-position:30% 30%!important}
-.steps.top .step img.bg[src*="leg-press"]{object-position:42% 52%!important}
-.steps.top .step>*:not(img){position:relative;z-index:1}
-.steps.top .step,.steps.top.on-light .step{border:0}
+.steps.fotoalto .step{min-height:0;justify-content:flex-start;padding:244px 22px 22px}
+.steps.fotoalto .step::before{display:none}
+.steps.fotoalto .step img.bg{position:absolute;top:0;left:0;width:100%;height:220px;object-fit:cover;z-index:0}
+.steps.fotoalto .step img.bg[src*="ingresso"]{object-position:50% 12%!important}
+.steps.fotoalto .step img.bg[src*="valutazione-posturale"]{object-position:30% 30%!important}
+.steps.fotoalto .step img.bg[src*="leg-press"]{object-position:42% 52%!important}
+.steps.fotoalto .step>*:not(img){position:relative;z-index:1}
+.steps.fotoalto .step,.steps.fotoalto.on-light .step{border:0}
