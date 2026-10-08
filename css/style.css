@@ -257,3 +257,4 @@ details{margin-left:auto;margin-right:auto}
 .steps.top .step img.bg[src*="valutazione-posturale"]{object-position:30% 30%!important}
 .steps.top .step img.bg[src*="leg-press"]{object-position:42% 52%!important}
 .steps.top .step>*:not(img){position:relative;z-index:1}
+.steps.top .step,.steps.top.on-light .step{border:0}
